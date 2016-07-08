@@ -1,0 +1,49 @@
+{
+  "name": "i18builder",
+  "version": "0.0.1",
+  "description": "A simple editor, conceived to make simple the management and build an i18 structure files.",
+  "main": "app/server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node app/server.js",
+    "coverage": "istanbul cover _mocha test/*.js",
+    "test": "_mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuerumx/i18Builder.git"
+  },
+  "keywords": [
+    "i18",
+    "Builder",
+    "Express",
+    "MIT"
+  ],
+  "author": "Manuel González R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuerumx/i18Builder/issues"
+  },
+  "homepage": "https://github.com/manuerumx/i18Builder#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "request": "^2.72.0"
+  },
+  "config": {
+    "mocha-sonar-reporter": {
+      "classname": "Test",
+      "testdir": "test",
+      "outputfile": "coverage/TEST-results.xml"
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.5.3",
+    "mocha-sonar-reporter": "^0.1.5"
+  }
+}
