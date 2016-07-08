@@ -1,3 +1,7 @@
+/**
+* Environment application variables
+*/
 module.exports  = {
-  "appName":"i18Builder"
+  port: 3333,
+  dirLogs: __dirname + '/../../logs/access.log'
 };
