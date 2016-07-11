@@ -1,5 +1,5 @@
 {
-  "name": "i18builder",
+  "name": "i18nBuilder",
   "version": "0.0.1",
   "description": "A simple editor, conceived to make simple the management and build an i18 structure files.",
   "main": "app/server.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manuerumx/i18Builder.git"
+    "url": "git+https://github.com/manuerumx/i18nBuilder.git"
   },
   "keywords": [
     "i18",
@@ -23,9 +23,9 @@
   "author": "Manuel González R.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manuerumx/i18Builder/issues"
+    "url": "https://github.com/manuerumx/i18nBuilder/issues"
   },
-  "homepage": "https://github.com/manuerumx/i18Builder#readme",
+  "homepage": "https://github.com/manuerumx/i18nBuilder#readme",
   "dependencies": {
     "async": "^2.0.0-rc.6",
     "cookie-parser": "^1.4.3",

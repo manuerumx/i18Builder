@@ -1,4 +1,4 @@
-# i18Builder
+# i18nBuilder
 A simple editor, conceived to make simple the management and build an i18 structure files.
 
 ## Requirements
@@ -17,11 +17,11 @@ A simple editor, conceived to make simple the management and build an i18 struct
 ## Installation
 ### Direct download
 #### Zip
-Download the file through this [link](https://github.com/manuerumx/i18Builder/archive/master.zip)
+Download the file through this [link](https://github.com/manuerumx/i18nBuilder/archive/master.zip)
 #### Git
 Clone the repository using this command:
 ```shell
-git clone https://github.com/manuerumx/i18Builder.git
+git clone https://github.com/manuerumx/i18nBuilder.git
 ```
 ### Port configuration
 By default the application runs in the **3333** port. You can change this parameter,
