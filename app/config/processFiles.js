@@ -67,7 +67,7 @@ var processFileCtrl = {
             defaultEncoding: 'utf8',
             autoClose: true
         };
-        proccessFileCtrl.checkFile(file, function (exists) {
+        processFileCtrl.checkFile(file, function (exists) {
             if (exists && !overwrite) {
                 callback({
                     'status': 'Error',
