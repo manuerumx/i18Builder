@@ -1,4 +1,5 @@
 var express = require('express');
+var cookieParser = require('cookie-parser');
 var morgan = require('morgan');
 var hbs = require('hbs');
 var path = require('path');
@@ -6,6 +7,12 @@ var fs = require('fs');
 
 var env = require('./config/environment');
 var app = express();
+app.use(cookieParser());
+/**
+* Disable the X-Powered-By header
+*/
+app.disable('x-powered-by');
+
 var accessLogStream = fs.createWriteStream(env.dirLogs, {flags: 'a'});
 if (app.get('env') !== 'production'){
     app.use(morgan('dev'));
