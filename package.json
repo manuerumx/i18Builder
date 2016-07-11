@@ -28,6 +28,7 @@
   "homepage": "https://github.com/manuerumx/i18Builder#readme",
   "dependencies": {
     "async": "^2.0.0-rc.6",
+    "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "hbs": "^4.0.0",
     "morgan": "^1.7.0",
