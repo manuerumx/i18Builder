@@ -1,8 +1,10 @@
 # i18Builder
 A simple editor, conceived to make simple the management and build an i18 structure files.
+
 ## Requirements
 * [NPM](https://www.npmjs.com/)
 * [Node](https://www.nodejs.org)
+
 ## Dependencies
 * [Async](https://github.com/caolan/async)
 * [Express](http://expressjs.com)
