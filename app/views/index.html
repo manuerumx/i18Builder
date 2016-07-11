@@ -21,19 +21,22 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
-    {{>navbar}}
+    {{>structure/navbar}}
     <div class="container">
       <div class="row">
         <h1>Bootstrap starter template</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
         <h5>HELLO WORLD {{title}}</h5>
         {{>partial1}}
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          Launch demo modal
+        </button>
       </div>
     </div><!-- /.container -->
 
-
+    {{>structure/modal}}
+    {{>structure/modalAbout}}
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -42,5 +45,10 @@
     <script src="../../js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+      jQuery(document).ready(function(){
+        $('#myModal').modal();
+      });
+    </script>
   </body>
 </html>
